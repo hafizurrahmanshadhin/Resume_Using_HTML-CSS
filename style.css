@@ -1,0 +1,210 @@
+/*here * is use for done globally*/
+
+* {
+  /*Here I selected margin and pading 0 for remove default margin and padding*/
+  margin: 0;
+  padding: 0;
+}
+
+/*Set body background color and font style in body segment*/
+
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+}
+
+/*I set main cv background color using this container*/
+
+.container {
+  max-width: 1000px;
+  background-color: #e4f5f9;
+  margin: 0 auto;
+  padding: 20px;
+  /*Here margin 0 auto meens that upper and bottom there will no margin apply and left and right side will auto adjust in display*/
+}
+
+/*Using this .profile-image class i adjust my heading photo*/
+
+.profile-image {
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+  /*Here i use float left because of showing profile photo and name side to side in the left side*/
+}
+
+.header-bio {
+  float: left;
+  /*use this for the same reason of profile-image class float*/
+  padding: 30px;
+}
+
+/*use font style for the same for all of text where using h tag*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #11999e;
+}
+
+p {
+  text-align: justify;
+}
+
+/*this one is used for change the contact side in header section*/
+
+/*start*/
+
+.header-contact {
+  float: right;
+  padding: 30px;
+}
+
+.header-contact a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+
+.header-contact a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+/*end*/
+
+/*this div clear will use for clear the div*/
+
+/*start*/
+
+.div-clear {
+  clear: both;
+}
+
+/*end*/
+
+/*style hr*/
+
+/*-------------
+Common hr start
+---------------*/
+
+.common-hr {
+  border: solid black 1px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/*-------------
+Common hr end
+---------------*/
+
+/*start*/
+
+hr {
+  border: 3px solid black;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+
+/*end*/
+
+/*----------------------
+Personal Section Start
+------------------------*/
+
+.content {
+  margin-bottom: 30px;
+}
+
+.left-div {
+  width: 30%;
+  float: left;
+  /*here using float left for showing output side to side*/
+}
+
+.right-div {
+  width: 70%;
+  float: left;
+  /*here using float left for showing output side to side*/
+}
+
+/*----------------------
+Personal Section end
+------------------------*/
+
+/*-----------------------
+Education Part Start
+------------------------*/
+
+/*This section is used for style the link in education address Started*/
+
+.edu-template-link {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+
+.edu-template-link:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+/*This section is used for style the link in education address Ended*/
+
+.edu-template-left {
+  float: left;
+  width: 45%;
+}
+
+.edu-template-right {
+  float: right;
+  width: 45%;
+}
+
+/*-----------------------
+Education Part End
+------------------------*/
+
+/*-----------------------
+Footer Part Start
+------------------------*/
+
+.bottom-container {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.bottom-container a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.bottom-container a:hover{
+  color: tomato;
+  text-decoration: underline;
+}
+
+.bottom-container p {
+  color: rgb(255, 0, 0);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bottom-container p:hover{
+    color: white;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+/*-----------------------
+Footer Part End
+------------------------*/
